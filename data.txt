@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 1,
     "title": "Building an App with ReactJS and MeteorJS",
     "link": "https://www.lynda.com/React-js-tutorials/Building-App-React-js-MeteorJS/533228-2.html",
@@ -71,4 +70,3 @@
     "link": "https://www.lynda.com/GraphQL-tutorials/GraphQL-Data-Fetching-Relay/595829-2.html",
     "description": "Want to build more efficient, data-driven React.js applications? Streamline data retrieval with GraphQL and Relay. You can get exactly the data you need—nothing more, nothing less—and predictable results every time."
   }
-]

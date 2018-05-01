@@ -1,26 +1,19 @@
 // @flow
-import React from 'react';
+import React, { Component } from 'react';
 
-type Item = {
-  feed: {
-    title: string,
-    description: string,
-    link: string,
-  }
-}
-
-
-const FeedItem = (item: Item) => {
+class FeedItem extends Component {
+  render(){
   return (
     <div className="row marketing">
       <div className="col-lg-12">
-          <a href={item.feed.link}>
-            <h4>{item.feed.title}</h4>
+          <a href={this.props.feed.link}>
+            <h4>{this.props.feed.title}</h4>
           </a>
-          <p>{item.feed.description}</p>
+          <p>{this.props.feed.description}</p>
       </div>
     </div>
   );
+}
 }
 
 export default FeedItem; 
